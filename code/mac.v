@@ -49,27 +49,35 @@ wire [31:0] product_2;
 wire [31:0] product_3;
 wire [33:0] sum;  //must use wire for instantiate  !!!
 
-mult_gen_0 inst_0(
+mult_gen_0 inst_0(				//Instantiation of Multiplier. NEEDS MODIFY!!!
     .CLK(clk),
     .A(ifm_0),
     .B(w_0),
     .P(product_0));
+	 
 mult_gen_0 inst1(
     .CLK(clk),
     .A(ifm_1),
     .B(w_1),
     .P(product_1));
+	 
+	 
 mult_gen_0 inst2(
     .CLK(clk),
     .A(ifm_2),
     .B(w_2),
     .P(product_2));
+	 
+	 
 mult_gen_0 inst3(
     .CLK(clk),
     .A(ifm_3),
     .B(w_3),
     .P(product_3));
-acc inst(
+	 
+	 
+	 
+acc inst(						//Instantiation of accumulator
     .clk(clk),
     .in_0(product_0),
     .in_1(product_1),
@@ -77,10 +85,17 @@ acc inst(
     .in_3(product_3),
     .sum(sum)
     );
+	 
+	 
+	 
+	 
 always@(posedge clk) begin
-    result <= sum;
+    result <= sum;			//Result is the convolutional sum
     end
    
+	
+	
+	
 //always@(posedge clk) begin
 //    result <= ifm_0*w_0 + ifm_1*w_1 + ifm_2*w_2 + ifm_3*w_3;
 //    end
