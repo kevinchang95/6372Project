@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA_lite/18.1
+vram1
+Z0 !s110 1575328285
+!i10b 1
+!s100 9Z3:k:^VGOc7D3LigmJ3O2
+I@7U0Z`76mH0z<DJYL=E9^2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/Ram_ModelSimi
+w1575327167
+8D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_RAM/ram1_bb.v
+FD:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_RAM/ram1_bb.v
+L0 34
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1575328285.000000
+!s107 D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_RAM/ram1_bb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_RAM/ram1_bb.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vtestbench_ram1
+R0
+!i10b 1
+!s100 HF@5^JPPVU`iU9kiaYTDW3
+I0eUZAAz_D=XNEYZakXF9d0
+R1
+R2
+w1575325951
+8D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_MAC_2/testbench_ram1.v
+FD:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_MAC_2/testbench_ram1.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_MAC_2/testbench_ram1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_MAC_2/testbench_ram1.v|
+!i113 1
+R5
+R6

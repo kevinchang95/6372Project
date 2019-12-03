@@ -1,0 +1,28 @@
+D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_RAM/simulation/modelsim/mem_init.hex {0 {vcom -work work -2002 -explicit -stats=none D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_RAM/simulation/modelsim/mem_init.hex
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+** Error: D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_RAM/simulation/modelsim/mem_init.hex(1): near "  multiple-line comm": (vcom-1203) String literal is not terminated with the % character.
+** Error: D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_RAM/simulation/modelsim/mem_init.hex(1): VHDL Compiler exiting
+
+} {4.0 6.0} {}} D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_MAC_2/testbench_ram1.v {1 {vlog -work work -stats=none D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_MAC_2/testbench_ram1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testbench_ram1
+
+Top level modules:
+	testbench_ram1
+
+} {} {}} D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_RAM/ram1_bb.v {1 {vlog -work work -stats=none D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_RAM/ram1_bb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram1
+
+Top level modules:
+	ram1
+
+} {} {}} D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_RAM/ram1.v {1 {vlog -work work -stats=none D:/Jiajun/Jiajun/Courses/2019Fall/ECE6372/6372project/trial_RAM/ram1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram1
+
+Top level modules:
+	ram1
+
+} {} {}}
